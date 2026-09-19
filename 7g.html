@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Text Box</title>
+  <style>
+    .tweet-box {
+      display: flex;
+      align-items: center; /* vertical-align: middle effect */
+      gap: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 500px;
+      border-radius: 10px;
+    }
+
+    .tweet-box img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; /* circular profile image */
+    }
+
+    .tweet-box input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .tweet-box button {
+      background-color: #1da1f2; /* Twitter blue */
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Twitter Text Box Example</h2>
+  
+  <div class="tweet-box">
+    <img src="profile.jpg" alt="Profile">
+    <input type="text" placeholder="What's happening?">
+    <button>Tweet</button>
+  </div>
+</body>
+</html>
